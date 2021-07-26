@@ -1,4 +1,4 @@
-# :wave: Hi I'm Heather and this is my Project Portfolio...Enjoy! 
+# :wave: Hi I'm Heather and this is my Workspace Portfolio...Enjoy! 
 
 
 
