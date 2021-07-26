@@ -2,7 +2,7 @@
 
 * [Home](
 * [Growth Mindset](
-* [Markdown Notes](Markdown.md)
+* [Markdown Notes](/docs/Markdown_Notes.md)
 * [Coder Notes](
 * [Git Notes](
 
