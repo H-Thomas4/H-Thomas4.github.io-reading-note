@@ -1,0 +1,30 @@
+body {
+    background-color: #56ADBA;
+    
+}
+
+header {
+    background-color: #A97384;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+#inspired {
+    max-width: 500px;
+    margin-left: 715px;
+}
+
+a  {
+    color: #F0D75B;   
+}
+
+.table {
+    background-color: rgb(123, 36, 129);
+    text-align: center;
+}
+ul {
+    
+}
