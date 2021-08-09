@@ -1,51 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <Script src="app.js"></Script>
     <title>Document</title>
-    
+
 </head>
+
 <body>
     <Header>
-       <h1>Heather's Heap of Coding Info</h1> 
-       <img> background image to give some sparkle
+        <img src="Chesire Code.png" id="header">
     </Header>
-
-    
-    <b></b>
-
-    <p>will write something along the lines of my learning and the great way summarizing these notes have helped me become a more developed coder.</p>
-
-
-    <h2>Table of Contents</h2>
+    <form name="loginform">
         <div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/main/Homepage.md">Home</a>
-                </li>
-                <li>
-                    <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/gh-pages/README.md">Growth Mindset</a>
-                </li>
-                <li>
-                    <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/gh-pages/Markdown.md">Markdown Notes</a>
-                </li>
-                <li>
-                    <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/gh-pages/coder.md">Coder Notes</a>
-                </li>
-                <li>
-                    <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/gh-pages/Git.md">Git Notes</a>
-                </li>
-                <li>
-                    <a href="">Web Dev: Outline</a>
-                </li>
-            </ul>
-        </nav>
+            <label for="email"></label>
+            Email: <input type="email" name="email" placeholder="email">
+            <span></span>
+        </div>
+        <div>
+            <label for="password"></label>
+            Password: <input type="password" name="password" placeholder="password">
+            <input type="submit" value="Login" onsubmit="validate()">
+        </div>
+    </form>
+
+
+    <p>Hello there and welcome to my page. My name is Heather and I am currently on my way to become a well-rounded Web
+        Developer. I am coming into this journey from a history of Customer Service so as scary as this transition is I
+        am very hopeful and excited to see just how this will change my life and those around me.</p>
+
+    <div class="gallery">
+        <figure>
+            <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/gh-pages/README.md">
+                <img  src="Growth_mindset.jpg" class="photo" id="photo">
+            </a>
+        </figure>
+        <figure>
+            <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/gh-pages/Git.md">
+                <img   src="github-logo.png" class="photo" id="photo">
+            </a>
+        </figure>
+        <figure>
+            <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/gh-pages/Markdown.md">
+                <img  src="Markdown.png" class="photo" id="photo">
+            </a>
+        </figure>
+        <figure>
+            <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/pages/coder.md">
+                <img  src="coder.jpg" class="photo" id="photo">
+            </a>
+        </figure>
+        <figure>
+            <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/pages/Structure_outline.md">
+                <img  src="HTML2.jpg" class="photo" id="photo">
+            </a>
+        </figure>
+        <figure>
+            <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/pages/CSS-Notes.md">
+                <img  src="CSS.jpg" class="photo" id="photo">
+            </a>
+        </figure>
+        <figure>
+            <a href="https://github.com/H-Thomas4/H-Thomas4.github.io-reading-note/blob/pages/JavaScript_Intro.md">
+                <img  src="JS_intro.png" class="photo" id="photo">
+            </a>
+        </figure>
     </div>
-   
-       
+
+    <div class="footer">
+        <img src="code quote.png" id="truth">
+    </div>
+
+    <button class="button" id="subBtn" onclick="confirmation()" >Subscribe</button>
+    <button class="button" id="unsubBtn" onclick="goodbye()">Unsubscribe</button>
 </body>
+
 </html>
