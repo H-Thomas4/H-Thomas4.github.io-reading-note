@@ -3,16 +3,19 @@ body {
     
 }
 
-header {
-    background-color: #A97384;
+#header {
+    height: 200px;
+    width: 1900px;
+
 }
 
-h1 {
-    text-align: center;
-    
+#truth {
+    max-width: 1900px;
+    max-height: 250px;
 }
 
 #inspired {
+    position: center;
     max-width: 500px;
     margin-left: 715px;
 }
@@ -21,10 +24,18 @@ a  {
     color: #F0D75B;   
 }
 
-.table {
-    background-color: rgb(123, 36, 129);
-    text-align: center;
+.photo {
+    width: 250px;
+    height: 250px;
 }
-ul {
-    
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 15vw);  
+}
+
+.footer {
+    display: flexbox;
+    flex-direction: row;
 }
